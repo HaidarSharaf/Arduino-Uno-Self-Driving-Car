@@ -8,8 +8,6 @@ AF_DCMotor motor4(4);
 Servo servo;
 
 const int SPEED = 160;  
-// const int PIEZO=A0;
-// const int LED=A3;
 
 
 
@@ -25,7 +23,6 @@ void setup() {
 }
  
 void loop() {
-  servo.write(150);
   moveForward();
   double disF=readUltrasonicDistance(A2, A1);
   if(disF>=2 && disF<=15){
