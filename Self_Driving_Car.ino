@@ -9,8 +9,6 @@ Servo servo;
 
 const int SPEED = 160;  
 
-
-
 void setup() {
   Serial.begin(9600);
   motor1.setSpeed(SPEED);
@@ -60,6 +58,7 @@ void moveBackwards(){
   motor4.run(BACKWARD);
   delay(600);
 }
+
 void moveRight(){
   motor1.run(FORWARD);
   motor2.run(FORWARD);
@@ -67,6 +66,7 @@ void moveRight(){
   motor4.run(BACKWARD);
   delay(1000);
 }
+
 void moveLeft(){
   motor1.run(BACKWARD);
   motor2.run(BACKWARD);
@@ -74,12 +74,14 @@ void moveLeft(){
   motor4.run(FORWARD);
   delay(1000);
 }
+
 void Stop(){
   motor1.run(RELEASE);
   motor2.run(RELEASE);
   motor3.run(RELEASE);
   motor4.run(RELEASE);
 }
+
 int readUltrasonicDistance(int triggerPin, int echoPin){
   int distance;
   digitalWrite(triggerPin, LOW);
