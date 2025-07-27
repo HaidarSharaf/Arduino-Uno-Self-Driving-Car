@@ -2,7 +2,7 @@
 
 An Arduino Uno self-driving car that avoids obstacles using sensors.
 
-# Components: 
+## 📋 Components: 
 - Arduino Uno
 - DC motor driver board L293D
 - 4 DC motors
@@ -11,11 +11,17 @@ An Arduino Uno self-driving car that avoids obstacles using sensors.
 - Power Source
 - Wheels & Chassis
 
-# Libraries:
+## 📦 Libraries:
 - Adafruit_Motor_Shield_V2_Library : https://github.com/adafruit/Adafruit_Motor_Shield_V2_Library
 - Servo : https://docs.arduino.cc/libraries/servo/
 
-# Features:
+## ✨ Features:
 - Obstacle detection
 - Choosing a path with no obstacles
 
+
+---
+
+⭐ **If you find ByteZone helpful, please give it a star on GitHub!**
+
+---
