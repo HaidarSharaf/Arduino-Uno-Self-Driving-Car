@@ -22,6 +22,6 @@ An Arduino Uno self-driving car that avoids obstacles using sensors.
 
 ---
 
-⭐ **If you find ByteZone helpful, please give it a star on GitHub!**
+⭐ **If you find this helpful, please give it a star on GitHub!**
 
 ---
